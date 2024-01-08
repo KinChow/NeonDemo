@@ -11,7 +11,6 @@ void print_vector(uint64x2_t v);
 void print_vector(float16x8_t v);
 void print_vector(float32x4_t v);
 void print_vector(float64x2_t v);
-
 void print_vector(int8x8_t v);
 void print_vector(int16x4_t v);
 void print_vector(int32x2_t v);
@@ -23,7 +22,6 @@ void print_vector(uint64x1_t v);
 void print_vector(float16x4_t v);
 void print_vector(float32x2_t v);
 void print_vector(float64x1_t v);
-
 void print_vector(int8x16x2_t v);
 void print_vector(int16x8x2_t v);
 void print_vector(int32x4x2_t v);
@@ -35,7 +33,6 @@ void print_vector(uint64x2x2_t v);
 void print_vector(float16x8x2_t v);
 void print_vector(float32x4x2_t v);
 void print_vector(float64x2x2_t v);
-
 void print_vector(int8x8x2_t v);
 void print_vector(int16x4x2_t v);
 void print_vector(int32x2x2_t v);

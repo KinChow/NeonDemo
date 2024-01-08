@@ -298,7 +298,6 @@ void print_vector(float64x2x2_t v)
     }
 }
 
-
 void print_vector(int8x8x2_t v)
 {
     for (int i = 0; i < 2; i++) {
