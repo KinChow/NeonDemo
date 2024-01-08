@@ -17,7 +17,7 @@ else()
     set(VERSION_MAJOR 0)
     set(VERSION_MINOR 0)
     set(VERSION_PATCH 0)
-    set(VERSION_TWEAK 3)
+    set(VERSION_TWEAK 4)
 endif()
 
 project(${PROJECT_NAME})

@@ -283,26 +283,26 @@ void demo_sub()
 int main()
 {
     std::cout << PROJECT_NAME << std::endl;
-    // demo_abs();
-    // demo_add();
-    // demo_bit();
+    demo_abs();
+    demo_add();
+    demo_bit();
     demo_compare();
-    // demo_convert();
-    // demo_count();
-    // demo_create();
-    // demo_get();
-    // demo_load();
-    // demo_manipulation();
-    // demo_maxmin();
-    // demo_mla();
-    // demo_mls();
-    // demo_mul();
-    // demo_negative();
-    // demo_reciprocal();
-    // demo_round();
-    // demo_set();
-    // demo_shift();
-    // demo_store();
-    // demo_sub();
+    demo_convert();
+    demo_count();
+    demo_create();
+    demo_get();
+    demo_load();
+    demo_manipulation();
+    demo_maxmin();
+    demo_mla();
+    demo_mls();
+    demo_mul();
+    demo_negative();
+    demo_reciprocal();
+    demo_round();
+    demo_set();
+    demo_shift();
+    demo_store();
+    demo_sub();
     return 0;
 }
