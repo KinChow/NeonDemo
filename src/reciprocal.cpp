@@ -18,7 +18,6 @@ void demo_vrecps_f32()
     float32x2_t v2_f32 = vdup_n_f32(2.5f);
     float32x2_t v3_f32 = vrecps_f32(v1_f32, v2_f32);
     print_vector(v3_f32);
-    /* */
     float32x2_t v4_f32 = vrecpe_f32(v1_f32);
     print_vector(v4_f32);
     v4_f32 = vmul_f32(vrecps_f32(v1_f32, v4_f32), v4_f32);

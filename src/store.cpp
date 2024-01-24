@@ -9,7 +9,10 @@ void demo_vst1_type()
     int32_t ptr[2] = {0};
     int32x2_t v_s32 = vcreate_s32(0x0000000800000004);
     vst1_s32(ptr, v_s32);
-    print_vector(v_s32);
+    for (int i = 0; i < 2; i++) {
+        std::cout << ptr[i] << " ";
+    }
+    std::cout << std::endl;
 }
 
 void demo_vst1_lane_type()
@@ -18,7 +21,10 @@ void demo_vst1_lane_type()
     int32_t ptr[2] = {0};
     int32x2_t v_s32 = vcreate_s32(0x0000000800000004);
     vst1_lane_s32(ptr, v_s32, 1);
-    print_vector(v_s32);
+    for (int i = 0; i < 2; i++) {
+        std::cout << ptr[i] << " ";
+    }
+    std::cout << std::endl;
 }
 
 void demo_vst2q_type()
