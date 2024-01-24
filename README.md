@@ -1456,7 +1456,7 @@ print_vector(v3_s16);
 
 向量b与向量c的各个元素相乘，向量a的各个元素与其积相加。
 $$
-r_i = a_i + b _i * c_i
+r_i = a_i + b_i * c_i
 $$
 
 
@@ -1480,7 +1480,7 @@ print_vector(v4_s16);
 
 向量b的各个元素与c相乘，向量a的各个元素与其积相加。
 $$
-r_i = a_i + b _i * c
+r_i = a_i + b_i * c
 $$
 
 
@@ -1504,7 +1504,7 @@ print_vector(v4_s16);
 
 向量b的各个元素与向量v指定索引的元素相乘，向量a的各个元素与其积相加。
 $$
-r_i = a_i + b _i * v_{lane}
+r_i = a_i + b_i * v_{lane}
 $$
 
 
@@ -1529,7 +1529,7 @@ print_vector(v4_s16);
 
 向量b与向量c的各个元素长指令相乘，向量a的各个元素与其积相加。
 $$
-r_i = a_i + b _i * c_i
+r_i = a_i + b_i * c_i
 $$
 
 
@@ -1554,7 +1554,7 @@ print_vector(v4_s32);
 
 向量b的各个元素与c长指令相乘，向量a的各个元素与其积相加。
 $$
-r_i = a_i + b _i * c
+r_i = a_i + b_i * c
 $$
 
 
@@ -1579,7 +1579,7 @@ print_vector(v4_s32);
 
 向量b的各个元素与向量v指定索引的元素长指令相乘，向量a的各个元素与其积相加。
 $$
-r_i = a_i + b _i * v_{lane}
+r_i = a_i + b_i * v_{lane}
 $$
 
 
@@ -1606,7 +1606,7 @@ print_vector(v4_s32);
 向量b与向量c的各个元素相乘，向量a的各个元素与其积相加。
 
 $$
-r_i = a_i + b _i * c_i
+r_i = a_i + b_i * c_i
 $$
 
 
@@ -1630,7 +1630,7 @@ print_vector(v4_f32);
 
 向量b与向量c的各个元素相乘，再乘2，向量a的各个元素与其积相加，进行饱和操作。
 $$
-r_i = sat(a_i + b _i * c_i * 2)
+r_i = sat(a_i + b_i * c_i * 2)
 $$
 
 
@@ -1655,7 +1655,7 @@ print_vector(v4_s32);
 
 向量b的各个元素与c相乘，再乘2，向量a的各个元素与其积相加，进行饱和操作。
 $$
-r_i = sat(a_i + b _i * c * 2)
+r_i = sat(a_i + b_i * c * 2)
 $$
 
 
@@ -1680,7 +1680,7 @@ print_vector(v4_s32);
 
 向量b的各个元素与向量v指定索引的元素相乘，再乘2，向量a的各个元素与其积相加，进行饱和操作。
 $$
-r_i = sat(a_i + b _i * v_{lane} * 2)
+r_i = sat(a_i + b_i * v_{lane} * 2)
 $$
 
 
@@ -1710,7 +1710,7 @@ print_vector(v4_s32);
 
 向量b与向量c的各个元素相乘，向量a的各个元素与其积相减。
 $$
-r_i = a_i - b _i * c_i
+r_i = a_i - b_i * c_i
 $$
 
 
@@ -1734,7 +1734,7 @@ print_vector(v4_s16);
 
 向量b的各个元素与c相乘，向量a的各个元素与其积相减。
 $$
-r_i = a_i - b _i * c
+r_i = a_i - b_i * c
 $$
 
 
@@ -1758,7 +1758,7 @@ print_vector(v4_s16);
 
 向量b的各个元素与向量v指定索引的元素相乘，向量a的各个元素与其积相减。
 $$
-r_i = a_i - b _i * v_{lane}
+r_i = a_i - b_i * v_{lane}
 $$
 
 
@@ -1783,7 +1783,7 @@ print_vector(v4_s16);
 
 向量b与向量c的各个元素长指令相乘，向量a的各个元素与其积相减。
 $$
-r_i = a_i - b _i * c_i
+r_i = a_i - b_i * c_i
 $$
 
 
@@ -1808,7 +1808,7 @@ print_vector(v4_s32);
 
 向量b的各个元素与c长指令相乘，向量a的各个元素与其积相减。
 $$
-r_i = a_i - b _i * c
+r_i = a_i - b_i * c
 $$
 
 
@@ -1833,7 +1833,7 @@ print_vector(v4_s32);
 
 向量b的各个元素与向量v指定索引的元素长指令相乘，向量a的各个元素与其积相减。
 $$
-r_i = a_i - b _i * v_{lane}
+r_i = a_i - b_i * v_{lane}
 $$
 
 
@@ -1860,7 +1860,7 @@ print_vector(v4_s32);
 向量b与向量c的各个元素相乘，向量a的各个元素与其积相减。
 
 $$
-r_i = a_i - b _i * c_i
+r_i = a_i - b_i * c_i
 $$
 
 
@@ -1884,7 +1884,7 @@ print_vector(v4_f32);
 
 向量b与向量c的各个元素相乘，再乘2，向量a的各个元素与其积相减，进行饱和操作。
 $$
-r_i = sat(a_i - b _i * c_i * 2)
+r_i = sat(a_i - b_i * c_i * 2)
 $$
 
 
@@ -1909,7 +1909,7 @@ print_vector(v4_s32);
 
 向量b的各个元素与c相乘，再乘2，向量a的各个元素与其积相减，进行饱和操作。
 $$
-r_i = sat(a_i - b _i * c * 2)
+r_i = sat(a_i - b_i * c * 2)
 $$
 
 
@@ -1934,7 +1934,7 @@ print_vector(v4_s32);
 
 向量b的各个元素与向量v指定索引的元素相乘，再乘2，向量a的各个元素与其积相减，进行饱和操作。
 $$
-r_i = sat(a_i - b _i * v_{lane} * 2)
+r_i = sat(a_i - b_i * v_{lane} * 2)
 $$
 
 
